@@ -1,0 +1,8 @@
+logs
+*-backups
+*.log
+/home/simon/tools/gitignore/KiCad.gitignore
+*.erc
+*.pcb-bak
+*pcb-bak
+build
