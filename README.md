@@ -4,5 +4,5 @@ These are recommended as starting points and references for designing your own c
 
 ## Glasgow
 + [Glasgow Embedded: glasgow](glasgow)
-+ [Source](https://github.com/GlasgowEmbedded/glasgow/README.md)
++ [Source](https://github.com/GlasgowEmbedded/glasgow)
 
