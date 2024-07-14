@@ -1,0 +1,27 @@
+[project]
+title="Tigard"
+company="Securing Hardware"
+revision="1.1.X"
+
+[jig]
+orientation = 0
+probe_side = "bottom"
+probe_class = "R100"
+
+[jig.probe_board]
+orientation = 90
+
+[jig.layers]
+pressure_pin.file = "pressure_pins.gbr"
+outline.file = "tigard-Edge_Cuts.gm1"
+clearance.file = "tigard-clearance.gbr"
+clearance.height = 5
+support.file = "tigard-support.gbr"
+support.height = 4
+probe.file = "tigard-probe.gbr"
+probe.height = 10
+base.file = "tigard-base.gbr"
+base.height = 10
+
+[jig.probes]
+gnd_height=-4

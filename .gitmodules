@@ -1,3 +1,6 @@
 [submodule "glasgow/glasgow"]
 	path = glasgow/glasgow
 	url = git@github.com:TheJigsApp/glasgow
+[submodule "tigard/tigard"]
+	path = tigard/tigard
+	url = git@github.com:TheJigsApp/tigard
