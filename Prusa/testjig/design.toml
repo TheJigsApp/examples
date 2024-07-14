@@ -1,0 +1,27 @@
+[project]
+title="Buddy Board Mini"
+company="Prusa"
+revision="1.0.X"
+
+[jig]
+orientation = 90
+probe_side = "bottom"
+probe_class = "R100"
+
+[jig.probe_board]
+orientation = 90
+
+[jig.layers]
+pressure_pin.file = "pressure_pins.gbr"
+outline.file = "BUDDY_v1.0.0-Edge_Cuts.gm1"
+clearance.file = "BUDDY_v1.0.0-clearance.gbr"
+clearance.height = 5
+support.file = "BUDDY_v1.0.0-support.gbr"
+support.height = 4
+probe.file = "BUDDY_v1.0.0-probe.gbr"
+probe.height = 10
+base.file = "BUDDY_v1.0.0-base.gbr"
+base.height = 10
+
+[jig.probes]
+gnd_height=-4

@@ -4,3 +4,6 @@
 [submodule "tigard/tigard"]
 	path = tigard/tigard
 	url = git@github.com:TheJigsApp/tigard
+[submodule "Prusa/Buddy-board-MINI-PCB"]
+	path = Prusa/Buddy-board-MINI-PCB
+	url = git@github.com:prusa3d/Buddy-board-MINI-PCB.git
