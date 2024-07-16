@@ -1,0 +1,27 @@
+[project]
+title="Black Wireless"
+company="BeagleBone"
+revision="0.1.X"
+
+[jig]
+orientation = 90
+probe_side = "bottom"
+probe_class = "R100"
+
+[jig.probe_board]
+orientation = 90
+
+[jig.layers]
+pressure_pin.file = "BeagleBone_Black_Wireless-pressure_pins.gbr"
+outline.file = "BeagleBone_Black_Wireless-Edge_Cuts.gm1"
+clearance.file = "BeagleBone_Black_Wireless-clearance.gbr"
+clearance.height = 5
+support.file = "BeagleBone_Black_Wireless-support.gbr"
+support.height = 4
+probe.file = "BeagleBone_Black_Wireless-probe.gbr"
+probe.height = 10
+base.file = "BeagleBone_Black_Wireless-base.gbr"
+base.height = 10
+
+[jig.probes]
+gnd_height=-4

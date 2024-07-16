@@ -10,3 +10,9 @@
 [submodule "librem5/l5-schematic"]
 	path = librem5/l5-schematic
 	url = https://source.puri.sm/Librem5/l5-schematic.git
+[submodule "mnt/mnt-reform-rk3588-som"]
+	path = mnt/mnt-reform-rk3588-som
+	url = https://source.mnt.re/reform/mnt-reform-rk3588-som/
+[submodule "beaglebone/beaglebone-black-wireless"]
+	path = beaglebone/beaglebone-black-wireless
+	url = git@github.com:beagleboard/beaglebone-black-wireless.git
