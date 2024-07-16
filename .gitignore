@@ -6,3 +6,9 @@ logs
 *.pcb-bak
 *pcb-bak
 build
+old
+*.net
+*.erc
+fab/*
+fab/
+*sklib.py
