@@ -1,0 +1,27 @@
+[project]
+title="mobo"
+company="LumenPNP"
+revision="1.1.X"
+
+[jig]
+orientation = 0
+probe_side = "bottom"
+probe_class = "R100"
+
+[jig.probe_board]
+orientation = 90
+
+[jig.layers]
+pressure_pin.file = "mobo-pressure pins.gbr"
+outline.file = "mobo-Edge_Cuts.gm1"
+clearance.file = "mobo-clearance.gbr"
+clearance.height = 5
+support.file = "mobo-support.gbr"
+support.height = 4
+probe.file = "mobo-probe.gbr"
+probe.height = 10
+base.file = "mobo-reliefs.gbr"
+base.height = 6
+
+[jig.probes]
+gnd_height=-4
