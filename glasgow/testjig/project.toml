@@ -6,13 +6,14 @@ revision="C.1.X"
 [jig]
 orientation = 90
 probe_side = "bottom"
-probe_class = "R100"
+# probe_class = "R100"
+offset = [0, 0]
 
 [jig.probe_board]
 orientation = 90
 
 [jig.layers]
-pressure_pin.file = "pressure_pins.gbr"
+pressure_pins.file = "glasgow-pressure_pins.gbr"
 outline.file = "glasgow-Edge_Cuts.gm1"
 clearance.file = "glasgow-clearance.gbr"
 clearance.height = 5
@@ -22,6 +23,3 @@ probe.file = "glasgow-probe.gbr"
 probe.height = 10
 base.file = "glasgow-base.gbr"
 base.height = 10
-
-[jig.probes]
-gnd_height=-4
