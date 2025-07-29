@@ -1,0 +1,47 @@
+[meta]
+version="0.2.0"
+
+[project]
+title="Example Test Jig"
+company="The JigsApp"
+revision="0.1.0"
+
+[jig]
+probe_side="bottom"
+orientation=0
+offset=[0,0]
+pressure_pin_type = "M3-6-5-35-3.2"
+support_pin_type = "GP-2S-36"
+
+[jig.cradle]
+rotation=0
+mirror=false
+
+[jig.layers.outline]
+file = "outline.gbr"
+
+[jig.layers.clearance]
+file = "clearance.gbr"
+height=5
+
+[jig.layers.support]
+file = "support.gbr"
+height=5
+
+[jig.layers.probe]
+file = "probe.gbr"
+height=9
+
+[jig.layers.base]
+file = "base.gbr"
+height=6
+
+[jig.layers.pressure_pins]
+file = "pressure_pins.gbr"
+
+[jig.layers.support_pins]
+file = "support_pins.gbr"
+
+[jig.layers.probe_placement]
+file = "probe_placement.gbr"
+
